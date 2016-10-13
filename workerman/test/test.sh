@@ -1,0 +1,1 @@
+thrift -gen php:server HelloWorld.thrift && cp ./gen-php/Services/HelloWorld ./ThriftRpc/Services/ -r
