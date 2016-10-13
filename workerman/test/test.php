@@ -15,7 +15,6 @@ thriftClient::config(
         'HelloWorld' => array(
             'addresses' => array(
                 '127.0.0.1:9090',
-                '127.0.0.2:9191',
             ),
             'thrift_protocol' => 'TBinaryProtocol',//不配置默认是TBinaryProtocol，对应服务端HelloWorld.conf配置中的thrift_protocol
             'thrift_transport' => 'TBufferedTransport',//不配置默认是TBufferedTransport，对应服务端HelloWorld.conf配置中的thrift_transport
